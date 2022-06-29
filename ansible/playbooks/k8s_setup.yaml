@@ -51,7 +51,7 @@
       enabled: yes
 
   - name: python3 yukleme ben ekledim hata aldigim icin
-    shell: yum install python3 -y 
+    shell: sudo yum install python3 -y 
 
   # change the Docker cgroup driver by creating a configuration file `/etc/docker/daemon.json` 
   # and adding the following line then restart deamon, docker and kubelet
