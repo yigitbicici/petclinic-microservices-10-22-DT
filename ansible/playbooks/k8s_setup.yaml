@@ -1,5 +1,7 @@
 - hosts: all
   become: true
+  vars:
+    ansible_python_interpreter: auto_legacy_silent
   tasks:
 
   - name: change hostnames
